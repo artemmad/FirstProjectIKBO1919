@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         //////////////TASK1//////////////////////
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
 
         //примитивные типы данных
         int a = 10;//4 байта
@@ -39,13 +39,32 @@ public class Main {
 
         for(int v : mass2){
             System.out.println(v +  "   второй массив");
-        }
+        }*/
 
         //////////////PRAKT 2//////////////////////
 
+        Shape triangle = new Shape(3, "triangle", 10);
+
+
+        System.out.println(triangle);
+        System.out.println(triangle.getSquare());
 
 
 
+
+        System.out.println();
+
+        Shape square = new Shape(4, "square", 30);
+
+
+        square.setName("square 2");
+
+
+        System.out.println(square);
+        System.out.println(square.getSquare());
+
+
+        
 
 
     }
