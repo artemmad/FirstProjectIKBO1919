@@ -5,9 +5,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
 
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
 
         //примитивные типы данных
         int a = 10;//4 байта
@@ -27,12 +26,16 @@ public class Main {
 
         for(String v : stringArray ){
             System.out.println(v);
-        }
-
+        }*/
 
 
 	//Задача 1.3
-	int[] ar13 = new int[] = {11,22,33,44};
-	for(int i : ar13) { System.out.print(i+ar13); System.out.println(); }
+	int s = 0;
+	int[] ar13 = {1,2,3,4};
+	for(int i : ar13){
+	   s+=i;
+	}
+	System.out.print(s);
+	System.out.println();
     }
 }
