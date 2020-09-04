@@ -31,5 +31,8 @@ public class Main {
 
 
 
+	//Задача 1.3
+	int[] ar13 = new int[] = {11,22,33,44};
+	for(int i : ar13) { System.out.print(i+ar13); System.out.println(); }
     }
 }
