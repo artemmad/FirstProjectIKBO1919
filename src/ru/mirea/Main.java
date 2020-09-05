@@ -35,7 +35,24 @@ public class Main {
 	for(int i : ar13){
 	   s+=i;
 	}
-	System.out.print(s);
+	System.out.print("Это сумма:" + s);
 	System.out.println();
-    }
+    
+	//Задача 1.4
+
+	for(String i : args) {
+	   System.out.println("Принятый аргумент:" + i); 
+	}
+
+	//Задача 1.5
+	
+	for (int i = 1; i < 11; i++) {
+	    System.out.println("Член гармонического ряда:" + 1./i); 
+	}
+
+  	//Задача 1.6
+	for (int i = 0; i < 10; i++) {
+	   System.out.printf("Случайное число:" + "%.0f\n",Math.random()*10);
+         }
+  }
 }
