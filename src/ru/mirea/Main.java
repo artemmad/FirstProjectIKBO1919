@@ -54,5 +54,26 @@ public class Main {
 	for (int i = 0; i < 10; i++) {
 	   System.out.printf("Случайное число:" + "%.0f\n",Math.random()*10);
          }
+
+
+	//Задача 1.7
+	factorCalc(3);
+	//sayHello("Слава");
+
+
+    }
+    
+    //Метод для задачи 1.7
+    public static void factorCalc(int num) {
+	 int res = 1;
+	 int i = 1;
+	 for(i = 1; i <= num; i++ ) { res*= i; }
+	 System.out.println(res);
+	}
+
+			/*public static void sayHello(String name) {
+				System.out.println("Привет, " + name);
+			}*/
+    	//Задача 1.8 решалась так: git commit Main.java -m "Текст коммита"
+	//git push origin main, где origin это - git@github.com:Panikowsky-M/FirstProjectIKBO1919
   }
-}
