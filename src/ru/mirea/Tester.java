@@ -1,5 +1,7 @@
 package ru.mirea;
 
+import ru.mirea.humanoid.Human;
+
 
 
 public class Tester {
@@ -14,5 +16,6 @@ public class Tester {
 
 	//Задача 3.2
 	Human human = new Human();
+	human.print();
   }
 }

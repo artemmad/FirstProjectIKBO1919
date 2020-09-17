@@ -1,4 +1,5 @@
 package ru.mirea.humanoid;
+import java.util.Arrays;
 
 public class Human {
 	Leg[] legs = {new Leg("Левая нога"),new Leg("Правая нога")};
@@ -11,7 +12,7 @@ public class Human {
 				"Head: " + head + "\n" + 
 				"Leg: " + Arrays.toString(legs) + "\n" +
 				"Hand: " + Arrays.toString(hands) + "\n" +
-				"}"
+				"}";
 	}
 
 	public void print() {

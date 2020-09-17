@@ -7,4 +7,12 @@ public class Leg {
 		this.legOrientation = legOrientation;
 
 	}
+
+	public String toString() {
+		return " " + Leg + "\n";
+	}
+	
+	   public void print() {
+	   	System.out.println(this);
+	   }
 }

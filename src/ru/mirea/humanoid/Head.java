@@ -1,6 +1,6 @@
 package ru.mirea.humanoid;
 
 
-public class Head() {
+public class Head {
 
 }
